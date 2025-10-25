@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>OverStore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+<!--/////////////////////////////////////HEADER////////////////////////////////////////-->   
+    <div class="resolucion"><!--Resolucion para diferentes pantallas-->
+    <div class="container">
+        <header id="inicio" class="fade-in-seccion">
+            <div class="titulo-centrado">
+            <h1>Eden Atelier</h1>
+            <p class="frase-abajo">Vistiendo la perfección de tu familia.</p>
+            </div>    
+        </header>
+    </div>
+<!--/////////////////////////////////////SIDEBAR//////////////////////////////////////////////-->
+<aside>
+    <button class="open-btn" onclick="openNav()">
+        <i class="bi bi-leaf"></i>
+    </button>
+    <nav id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#hombre">Caballeros</a>
+        <a href="#mujer">Damas</a>
+        <a href="#ninos">Pequeños</a>
+        <a href="#contacto">Contacto</a>
+        <div class="car-section">
+            <h4>🛒 Mi Carrito</h4>
+            <a href="/carrito.html" class="btn-ver-carrito">Ver Carrito</a>
+        </div>
+    </nav>
+</aside>
+<!--/////////////////////////////////////CATEGORIA HOMBRE//////////////////////////////////////////////-->
+<section id="hombre" class="hombre">
+<section class="fade-in-seccion">
+    <h2 class="category">Caballeros</h2>
+</section>
+<div class="grid-productos">
+    <article class="tarjeta-producto">
+        <img src="images/hombre1.jpeg" alt="Camisa blanca de tejido"><!--Imagen del Producto-->
+        <div class="info-producto">
+            <h3 class="product">Camisa Tejida</h3><!--Nombre Del Producto-->
+            <p class="descripcion">Camisa Blanca, Tejida con botones al frente</p><!--Descripcion rapida del producto-->
+            <p class="precio">$599.00 MXN</p><!--Precio-->
+            <button class="boton-comprar">A la cesta</button><!--Boton Agregar al carrito-->
+        </div>
+    </article>
+	<!--Camisa de color blanco tejida-->
+    <article class="tarjeta-producto">
+        <img src="images/hombre2.jpeg" alt="Chaleco cafe tejido con cuello en V">
+        <div class="info-producto">
+            <h3>Chaleco Cafe</h3>
+            <p class="descripcion">Chaleco cafe tejido con cuello en V</p>
+            <p class="precio">$699.00 MXN</p>
+            <button class="boton-comprar">A la cesta</button>
+        </div>
+    </article>
+	
+    <article class="tarjeta-producto">
+        <img src="images/hombre3.jpeg" alt="Conjunto chaleco blanco con camisa negra">
+        <div class="info-producto">
+            <h3>Chaleco c/ playera</h3>
+            <p class="descripcion">Conjunto chaleco blanco tejido con playera negra lisa</p>
+            <p class="precio">$899.00 MXN</p>
+            <button class="boton-comprar">A la cesta</button>
+        </div>
+    </article>
+
+    <article class="tarjeta-producto">
+        <img src="images/hombre4.jpeg" alt="Conjunto de chaleco cafe claro con camisa blanca de vestir manga larga">
+        <div class="info-producto">
+            <h3>Chaleco c/ camisa</h3>
+            <p class="descripcion">Conjunto de chaleco cafe claro con camisa blanca de vestir manga larga</p>
+            <p class="precio">$899.00 MXN</p>
+            <button class="boton-comprar">A la cesta</button>
+        </div>
+    </article>
+	
+    <article class="tarjeta-producto">
+        <img src="images/hombre5.jpeg" alt="Conjunto de pantalon blanco y chaleco color crema">
+        <div class="info-producto">
+            <h3>Pantalon c/ Chaleco</h3>
+            <p class="descripcion">onjunto de pantalon blanco y chaleco color crema</p>
+            <p class="precio">$1,299.00</p>
+            <button class="boton-comprar">A la cesta</button>
+        </div>
+    </article>
+	
+    <article class="tarjeta-producto">
+        <img src="images/hombre6.jpeg" alt="camisa blanca sin mangas cuello redondo">
+        <div class="info-producto">
+            <h3>Camisa Blanca Sin Mangas</h3>
+            <p class="descripcion">camisa blanca sin mangas cuello redondo</p>
+            <p class="precio">$599.00</p>
+            <button class="boton-comprar">A la cesta</button>
+        </div>
+    </article>
+	
+    <article class="tarjeta-producto">
+        <img src="images/hombre7.jpeg" alt="pantalon de vestir gris oscuro corte ancho">
+        <div class="info-producto">
+            <h3>Pantalon Gris</h3>
+            <p class="descripcion">pantalon de vestir gris oscuro corte ancho</p>
+            <p class="precio">$899.00</p>
+            <button class="boton-comprar">A la cesta</button>
+            </div>
+    </article>
+	
+    <article class="tarjeta-producto">
+        <img src="images/hombre8.jpg" alt="Suéter negro cuello V, esencial. Perfecto para un look elegante y versátil.">
+        <div class="info-producto">
+            <h3>Suéter Cuello V Clásico Negro</h3>
+            <p class="descripcion">Suéter negro cuello V, esencial. Perfecto para un look elegante y versátil.</p>
+            <p class="precio">$799.00</p>
+            <button class="boton-comprar">A la cesta</button>
+            </div>
+    </article>    
+</div>
+
+</section>
+<!--/////////////////////////////////////////////MUJER////////////////////////////////////////////////-->
+<section id="mujer" class="mujer">
+<section class="fade-in-seccion">
+    <h2 class="category">Damas</h2>
+</section>
+    <div class="grid-productos">
+    <article class="tarjeta-producto">
+        <img src="images/mujer1.jpeg" alt="Vestido blazer midi de terciopelo con guantes de ópera. Elegancia atemporal para ocasiones especiales."><!--Imagen del Producto-->
+        <div class="info-producto">
+            <h3>Vestido Blazer Terciopelo</h3><!--Nombre Del Producto-->
+            <p class="descripcion">Vestido blazer midi de terciopelo con guantes de ópera. Elegancia atemporal para ocasiones especiales.</p><!--Descripcion rapida del producto-->
+            <p class="precio">$1,499.00 MXN</p><!--Precio-->
+            <button class="boton-comprar">Agregar al carrito</button><!--Boton Agregar al carrito-->
+        </div>
+    </article>
+	
+    <article class="tarjeta-producto">
+        <img src="images/mujer2.jpeg" alt="Conjunto elegante rojo. Mini vestido strapless y blazer cropped. Estilo audaz.">
+        <div class="info-producto">
+            <h3>Conjunto Mini Blazer y Vestido Rojo Terciopelo</h3>
+            <p class="descripcion">Conjunto elegante rojo. Mini vestido strapless y blazer cropped. Estilo audaz.</p>
+            <p class="precio">$1,599.00 MXN</p>
+            <button class="boton-comprar">Agregar al carrito</button>
+        </div>
+    </article>
+	
+    <article class="tarjeta-producto">
+        <img src="images/mujer3.jpeg" alt="Vestido corto negro de terciopelo. Escote Bardot y guantes largos. Elegancia clásica">
+        <div class="info-producto">
+            <h3>Vestido Mini Terciopelo Escote Bardot con Guantes</h3>
+            <p class="descripcion">Vestido corto negro de terciopelo. Escote Bardot y guantes largos. Elegancia clásica</p>
+            <p class="precio">$1,250.00 MXN</p>
+            <button class="boton-comprar">Agregar al carrito</button>
+        </div>
+    </article>
+
+    <article class="tarjeta-producto">
+        <img src="images/mujer4.jpeg" alt="Vestido corto strapless. Diseño único con botones y detalle plisado. Estilo moderno.">
+        <div class="info-producto">
+            <h3>Mini Vestido Strapless con Botones y Plisados</h3>
+            <p class="descripcion">Vestido corto strapless. Diseño único con botones y detalle plisado. Estilo moderno.</p>
+            <p class="precio">$799.00 MXN</p>
+            <button class="boton-comprar">Agregar al carrito</button>
+        </div>
+    </article>
+	
+    <article class="tarjeta-producto">
+        <img src="images/mujer5.jpeg" alt="Vestido largo negro de terciopelo. Escote con rosas 3D. Gala, elegancia.">
+        <div class="info-producto">
+            <h3>Vestido de Gala Sirena con Rosas 3D</h3>
+            <p class="descripcion">Vestido largo negro de terciopelo. Escote con rosas 3D. Gala, elegancia.</p>
+            <p class="precio">$2,800.00</p>
+            <button class="boton-comprar">Agregar al carrito</button>
+        </div>
+    </article>
+	
+    <article class="tarjeta-producto">
+        <img src="images/mujer6.jpeg" alt="Elegante vestido blazer negro. Botones frontales y mangas campana. Estilo único.">
+        <div class="info-producto">
+            <h3>Vestido Blazer Negro Manga Campana</h3>
+            <p class="descripcion">Elegante vestido blazer negro. Botones frontales y mangas campana. Estilo único.</p>
+            <p class="precio">$950.00</p>
+            <button class="boton-comprar">Agregar al carrito</button>
+        </div>
+    </article>
+	
+    <article class="tarjeta-producto">
+        <img src="images/mujer7.jpeg" alt="Vestido blazer negro. Falda plisada y botones. Chic y moderno.">
+        <div class="info-producto">
+            <h3>Mini Vestido Blazer con Falda Plisada</h3>
+            <p class="descripcion">Vestido blazer negro. Falda plisada y botones. Chic y moderno.</p>
+            <p class="precio">$999.00</p>
+            <button class="boton-comprar">Agregar al carrito</button>
+            </div>
+    </article>
+	
+    <article class="tarjeta-producto">
+        <img src="images/mujer8.jpeg" alt="Vestido corto blazer color vino. Sin mangas, falda plisada. Estilo chic.">
+        <div class="info-producto">
+            <h3>Mini Vestido Blazer Sin Mangas Vino</h3>
+            <p class="descripcion">Vestido corto blazer color vino. Sin mangas, falda plisada. Estilo chic.</p>
+            <p class="precio">$970.00</p>
+            <button class="boton-comprar">Agregar al carrito</button>
+        </div>
+    </article>        
+    </div>
+</section>
+<!--//////////////////////////////////////////////PEQUENOS///////////////////////////////////////////-->
+<section id="ninos" class="ninos">
+    <section class="fade-in-seccion">
+        <h2 class="category">Niños</h2>
+    </section>
+    <div class="grid-productos">
+    <article class="tarjeta-producto">
+        <img src="images/nina1.jpeg" alt="Conjunto beige para niña. Blazer cruzado y pantalón ancho. Cómodo y chic."><!--Imagen del Producto-->
+        <div class="info-producto">
+            <h3>Conjunto Niña Blazer y Pantalón Beige Casual</h3><!--Nombre Del Producto-->
+            <p class="descripcion">Conjunto beige para niña. Blazer cruzado y pantalón ancho. Cómodo y chic.</p><!--Descripcion rapida del producto-->
+            <p class="precio">$850.00 MXN</p><!--Precio-->
+            <button class="boton-comprar">Agregar al carrito</button><!--Boton Agregar al carrito-->
+        </div>
+    </article>
+	
+    <article class="tarjeta-producto">
+        <img src="images/nina2.jpeg" alt="Chaqueta de mezclilla negra para niña. Estilo crop. Moderna y casual.">
+        <div class="info-producto">
+            <h3>Chaqueta Denim Negra Corta Niña</h3>
+            <p class="descripcion">Chaqueta de mezclilla negra para niña. Estilo crop. Moderna y casual.</p>
+            <p class="precio">$699.00 MXN</p>
+            <button class="boton-comprar">Agregar al carrito</button>
+        </div>
+    </article>
+	
+    <article class="tarjeta-producto">
+        <img src="images/nina3.jpeg" alt="Vestido largo acolchado negro para niña. Moderno y cálido. Invierno chic">
+        <div class="info-producto">
+            <h3>Vestido Acolchado Negro Sin Mangas Niña</h3>
+            <p class="descripcion">Vestido largo acolchado negro para niña. Moderno y cálido. Invierno chic</p>
+            <p class="precio">$750.00 MXN</p>
+            <button class="boton-comprar">Agregar al carrito</button>
+        </div>
+    </article>
+
+    <article class="tarjeta-producto">
+        <img src="images/nina4.jpeg" alt="Vestido peto negro de terciopelo para niña. Versátil y lindo. Invierno.">
+        <div class="info-producto">
+            <h3>Vestido Peto Negro Terciopelo Niña</h3>
+            <p class="descripcion">Vestido peto negro de terciopelo para niña. Versátil y lindo. Invierno.</p>
+            <p class="precio">$580.00 MXN</p>
+            <button class="boton-comprar">Agregar al carrito</button>
+        </div>
+    </article>
+	
+    <!--<article class="tarjeta-producto">
+        <img src="images//camisajuice.jpg" alt="camisa blanca con estampado Juice de sandia">
+        <div class="info-producto">
+            <h3>Camisa JUICE</h3>
+            <p class="descripcion">camisa blanca con estampado Juice de sandia</p>
+            <p class="precio">$500.00</p>
+            <button class="boton-comprar">Agregar al carrito</button>
+        </div>
+    </article>
+	
+    <article class="tarjeta-producto">
+        <img src="images/cargogris.png" alt="pantalon cargo color gris con bolsas a los costados">
+        <div class="info-producto">
+            <h3>Cargo Gris</h3>
+            <p class="descripcion">pantalon cargo color gris con bolsas a los costados</p>
+            <p class="precio">$1,200.00</p>
+            <button class="boton-comprar">Agregar al carrito</button>
+        </div>
+    </article>
+	
+    <article class="tarjeta-producto">
+        <img src="images/chamarrapana.jpg" alt="chamarra de pana cafe claro">
+        <div class="info-producto">
+            <h3>Chamarra de pana</h3>
+            <p class="descripcion">chamarra de pana cafe claro</p>
+            <p class="precio">$1,500.00</p>
+            <button class="boton-comprar">Agregar al carrito</button>
+            </div>
+    </article>
+	
+    <article class="tarjeta-producto">
+        <img src="images/camisa.png" alt="camisa color menta estampado de Trunk"s>
+        <div class="info-producto">
+            <h3>Camisa Trunk</h3>
+            <p class="descripcion">camisa color menta estampado de Trunk</p>
+            <p class="precio">$500.00</p>
+            <button class="boton-comprar">Agregar al carrito</button>
+        </div>
+    </article>-->
+    </div>
+</section>
+<footer>Web Creada Por Victor Mendez</footer>
+</div>
+<script src="script.js"></script></body>
+</html>
